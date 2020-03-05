@@ -2,6 +2,8 @@
 #define _LINKEDLIST_
 typedef struct ListNodetype {
 	int data;
+	float coef;
+	int degree;
 	struct ListNodetype *pLink;
 }ListNode;
 typedef struct LinkeListType {
