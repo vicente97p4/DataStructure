@@ -87,4 +87,4 @@ int isLinkedQueueEmpty(LinkedQueue* pQueue) {
 		if (pQueue->currentElementCount == 0)
 			ret = TRUE;
 	return ret;
-}k
+}
