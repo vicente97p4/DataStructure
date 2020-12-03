@@ -50,10 +50,10 @@ int main(int argc, char* args[]){
 			
 			close(listensd);//close(): end socket
 			
-			if(close(connectsd)==0)//end connection
-				printf("Connection terminated\n");
+			printf("Connection terminated\n");
 			exit(0);
 		}
+		close(connectsd);
 	}
 }
 void error_handling(char *message){
